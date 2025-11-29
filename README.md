@@ -3,15 +3,6 @@
 ## Education
 							       		
 
-
-<! ## Work Experience
-**Data **
-- 
-
-**Data **
-- 
->
-
 ## Projects
 
 
