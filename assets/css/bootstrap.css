@@ -3010,7 +3010,10 @@ input[type="button"].btn-block {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 0 !important;
+  right: auto !important;
+  width: 100%;
+  text-align: center;
   z-index: 1000;
   display: none;
   float: left;
@@ -5779,3 +5782,4 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
