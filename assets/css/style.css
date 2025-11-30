@@ -148,6 +148,12 @@ p {
    
 }
 
+.profile-container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 
 /*==========================================
    SOCIAL ICON STYLES
@@ -353,6 +359,7 @@ box-shadow: 0 0 10px #00ff9f, 0 0 20px #00ff9f;
 .social-icons a:hover {
   color: #00ff6a;
 }
+
 
 
 
