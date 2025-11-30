@@ -253,11 +253,64 @@ color: #FFFFFF;
    ========================================================================== */
    
 
-#footer {
-    background-color: #2F11C4; 
-    color: #fff; 
-    text-align: right; 
-    padding: 10px 30px 10px 30px;
+.footer {
+  background: #020812;
+  color: #d1d5db;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: Arial, sans-serif;
 }
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-h {
+  font-size: 32px;
+  font-weight: 900;
+  color: white;
+}
+
+.logo-square {
+  width: 22px;
+  height: 22px;
+  background: #00ff6a;  /* Neon green like HackerRank */
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.footer-links a {
+  color: #9ca3af;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover,
+.social-icons a:hover {
+  color: #00ff6a;
+}
+
+
 
 
