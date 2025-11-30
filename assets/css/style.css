@@ -204,6 +204,9 @@ border-color: #5D5B66;
 .navbar-inverse .navbar-nav > li > a {
 color: #FFFFFF;
 }
+.navbar-links a:hover {
+  color: #00ff6a;
+}
 
 
 /* ==========================================================================
@@ -285,7 +288,7 @@ color: #FFFFFF;
 .logo-square {
   width: 22px;
   height: 22px;
-  background: #00ff6a;  /* Neon green like HackerRank */
+  background: #00ff6a;  
 }
 
 .footer-right {
@@ -310,6 +313,7 @@ color: #FFFFFF;
 .social-icons a:hover {
   color: #00ff6a;
 }
+
 
 
 
