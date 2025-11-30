@@ -355,10 +355,27 @@ box-shadow: 0 0 10px #00ff9f, 0 0 20px #00ff9f;
   font-size: 14px;
 }
 
+@media (max-width: 768px) {
+  footer,
+  .footer,
+  .footer-bottom,
+  .footer-links {
+    text-align: center !important;
+  }
+
+  /* center icons too */
+  .footer-icons,
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .footer-links a:hover,
 .social-icons a:hover {
   color: #00ff6a;
 }
+
 
 
 
